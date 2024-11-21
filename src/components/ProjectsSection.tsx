@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Landing Page for SaaS",
     category: "Landing Pages",
-    image: image3,
+    image: image4,
     description: "A sleek landing page for a SaaS product.",
     link: "#",
   },
@@ -32,6 +32,20 @@ const projects = [
     category: "Web",
     image: image3,
     description: "A personal portfolio showcasing creative work.",
+    link: "#",
+  },
+  {
+    title: "Mobile Banking App",
+    category: "Mobile",
+    image: image2,
+    description: "A secure and user-friendly banking application.",
+    link: "#",
+  },
+  {
+    title: "Landing Page for SaaS",
+    category: "Landing Pages",
+    image: image4,
+    description: "A sleek landing page for a SaaS product.",
     link: "#",
   },
 ];
