@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import image1 from "../imgs/OIP2.jpeg";
+import image1 from "../imgs/app1.png";
+import image2 from "../imgs/newsApp.png";
+import image3 from "../imgs/personelPortfolio.jpg";
+import image4 from "../imgs/Another-Webshop2.png";
 import Image from "next/image";
 import Link from "next/link";
 const projects = [
@@ -13,21 +16,21 @@ const projects = [
   {
     title: "Mobile Banking App",
     category: "Mobile",
-    image: image1,
+    image: image2,
     description: "A secure and user-friendly banking application.",
     link: "#",
   },
   {
     title: "Landing Page for SaaS",
     category: "Landing Pages",
-    image: image1,
+    image: image3,
     description: "A sleek landing page for a SaaS product.",
     link: "#",
   },
   {
     title: "Portfolio Website",
     category: "Web",
-    image: image1,
+    image: image3,
     description: "A personal portfolio showcasing creative work.",
     link: "#",
   },

@@ -64,6 +64,7 @@ const SideBar = () => {
         <div className="flex justify-between ">
           {socialLinks.map((item, index) => (
             <Link
+              key={index}
               className=" hover:scale-[1.3] transition-all hover:text-pink-500"
               href={item.link}
             >

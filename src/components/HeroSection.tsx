@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import userImage from "../imgs/sophiedurand.jpeg";
+import user from "../imgs/sophiedurand.jpeg";
 import Link from "next/link";
 
 const HeroSection = () => {
@@ -20,8 +20,9 @@ const HeroSection = () => {
               <span className="text-pink-500 font-bold">javaScript</span>
             </div>
             <p className="text-lg">
-              passionnée, spécialisée dans la création d'applications modernes
-              et performantes. J'aime transformer des idées en réalité.
+              passionnée, spécialisée dans la création d&apos;applications
+              modernes et performantes. J&apos;aime transformer des idées en
+              réalité.
             </p>
             <div className="callBack justify-center lg:justify-start flex gap-10 capitalize">
               {/* Bouton "Hire Me" */}
@@ -46,7 +47,7 @@ const HeroSection = () => {
 
           <div className=" md:mx-auto">
             <Image
-              src={userImage}
+              src={user}
               alt="Portrait de Sophie Durand"
               objectFit="cover"
               className="rounded-full shadow-lg"
